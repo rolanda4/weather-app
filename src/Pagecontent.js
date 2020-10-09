@@ -3,7 +3,7 @@ import './App.css';
 
 function Pagecontent() {
 
-    const[cityname, setCityname] = useState('Kasoa');
+    const[cityname, setCityname] = useState(null);
   return (
     <div className="App-Content">
       <h3>What is the weather like in . . .</h3>
