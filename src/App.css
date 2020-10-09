@@ -9,6 +9,8 @@
  margin: auto;
 }
 
+
+
 .App-Search{
   float: right;
 }
@@ -21,7 +23,28 @@
 
 .App-Content{
   height: calc(100% - 25px);
-  background-image: url('./download.jpg') cover;
-  padding: 230px 500px;
+  background-image: url('https://images.pexels.com/photos/830891/pexels-photo-830891.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
   text-align: center;
+}
+
+.App-Main{
+  padding: 230px 500px;
+}
+
+.Login-btn{
+  float: right;
+  text-decoration: none;
+  color: #000;
+  border: #000 solid 1px;
+  margin-right: 80px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.Login-btn:hover{
+  background-color: #000;
+  color: #fff;
 }
