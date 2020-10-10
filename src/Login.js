@@ -1,13 +1,15 @@
 import React from 'react';
+import {Link} from 'react-router';
 import './App.css';
 
 function Login() {
   return (
       <div>
-          <a className="Login-btn" type="login" href='Login-Page.js'
-          >Login</a>
+          <Link className="Login-btn" type="login" to={"/LoginPage"}>
+            Login</Link>
       </div>
   );
 }
 
+export {Link};
 export default Login;
