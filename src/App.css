@@ -34,6 +34,18 @@
   padding: 230px 500px;
 }
 
+.App-LoginPage{
+  text-align: center;
+}
+
+.App-LoginForm{
+  border: #000 dashed 2px;
+  padding: 20px;
+  display: block;
+  margin: 50px 80px;
+}
+
+
 .Login-btn{
   float: right;
   text-decoration: none;

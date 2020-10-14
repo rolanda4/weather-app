@@ -9,6 +9,7 @@ function LoginPage() {
 
     // { userLoggedin === true && <p>Welcome {'username'}</p>};
     <div className="App-LoginPage">
+      <h3>Log In</h3>
      <form className="App-LoginForm">
     <label>Username:</label>
     <input type="text" placeholder="Kofi2020" id="username"/>
