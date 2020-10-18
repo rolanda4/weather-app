@@ -9,8 +9,8 @@ function App() {
   return (
     
     <Router>
-    <Navigate />
-    <Pagecontent />
+      <Route path='/' component={Navigate}/>
+      <Route path='/' component={Pagecontent}/>
     </Router>
     
     
